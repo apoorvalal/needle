@@ -55,9 +55,9 @@ def generate_semicircle_svg(value, width=800, height=400):  # Increased dimensio
         <!-- Center point -->
         <circle cx="{cx}" cy="{cy}" r="5" fill="black"/>
         <text x="{cx - radius - 20}" y="{cy}"
-              font-family="Arial" font-size="20" fill="blue">K</text>
+              font-family="Arial" font-size="20" fill="blue">D</text>
         <text x="{cx + radius + 20}" y="{cy}"
-              font-family="Arial" font-size="20" fill="red">D</text>
+              font-family="Arial" font-size="20" fill="red">R</text>
     </svg>
     """
     return svg
